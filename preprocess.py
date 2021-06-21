@@ -59,7 +59,7 @@ print("...Done.(1/5)")
 # sns.boxplot(x=sales.item_price)
 print(f"start to clean the data...", end="", flush=True)
 # Remove outlier
-train = sales[(sales.item_price < 300000 )& (sales.item_cnt_day < 1000)]
+train = sales[(sales.item_price < 300000 )& (sales.item_cnt_day < 1001)]
 # remove negative item price
 train = sales[sales.item_price > 0].reset_index(drop = True)
 
