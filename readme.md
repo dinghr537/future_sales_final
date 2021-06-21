@@ -1,5 +1,9 @@
 ## DSAI HW4
 
+python version: 3.7.10
+
+16G RAM is recommended
+
 ### 執行方式
 
 ```shell
